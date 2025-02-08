@@ -1,0 +1,5 @@
+module thorzeel.mojom;
+
+interface RangeFileService {
+  GetFile() => (string file);
+};
